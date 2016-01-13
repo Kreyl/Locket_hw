@@ -1,2 +1,6 @@
 *.bak_CIR
 RFSimulation/Round7.hfssresults/
+*.dsn
+*.kicad_pcb-bak
+*.fsxview
+*.ses
