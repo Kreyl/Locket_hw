@@ -10,4 +10,6 @@
   (lib (name Installations)(type KiCad)(uri D:\Libs\Kicad\Installation.pretty)(options "")(descr ""))
   (lib (name PCB)(type KiCad)(uri D:\Libs\Kicad\PCB.pretty)(options "")(descr ""))
   (lib (name Switches)(type KiCad)(uri D:\Libs\Kicad\BtnsSwitches.pretty)(options "")(descr ""))
+  (lib (name Sensors)(type KiCad)(uri D:\Libs\Kicad\Sensors.pretty)(options "")(descr ""))
+  (lib (name LGA)(type KiCad)(uri D:\Libs\Kicad\LGA.pretty)(options "")(descr ""))
 )
