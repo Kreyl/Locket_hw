@@ -24,64 +24,64 @@ Temperature=27
 
 Model parameters for devices of type Bipolar Junction Transistors NPN
 =====================================================================
-Instance:              Q1              Q2   
-Using model:    MMBT2222A          BC848C   
-LEVEL                   1(*)            1(*)
-AF                 1.000 (*)       1.000 (*)
-BF               256.700         585.614    
-BR                 6.590         512.852m   
-CJC               10.110p          5.725p   
-CJE               25.890p         11.313p   
-CJS                0.000           0.000 (*)
-EG                 1.110           1.110 (*)
-FC               938.800m        500.000m(*)
-IKF              489.900m        120.253m   
-IKR              192.900m         28.373    
-IRB                1.000m          0.000 (*)
-IS                29.130f         10.169f   
-ISC              320.300p          4.349p   
-ISE                9.652f         13.571f   
-ISS                0.000 (*)       0.000 (*)
-ITF                4.797          10.283m   
-KF                 0.000 (*)       0.000 (*)
-MJC              416.000m        310.512m   
-MJE              366.800m        642.888m   
-MJS              333.000m          0.000 (*)
-NC                 1.608           2.000 (*)
-NE                 1.516           1.378    
-NF               992.600m        957.858m   
-NK               500.000m(*)     500.000m(*)
-NR               984.400m          1.000 (*)
-NS                 1.000 (*)       1.000 (*)
-PTF                0.000           0.000 (*)
-RB                 1.000           0.000 (*)
-RBM                1.000           0.000 (*)
-RC               224.800m          0.000 (*)
-RE               193.400m          1.588    
-T_ABS           UNDEFINED(*)    UNDEFINED(*)
-T_MEASURED      UNDEFINED(*)    UNDEFINED(*)
-T_REL_GLOBAL    UNDEFINED(*)    UNDEFINED(*)
-T_REL_LOCAL     UNDEFINED(*)    UNDEFINED(*)
-TF               293.900p        381.966p   
-TR               320.000n         10.000n   
-TRB1               0.000 (*)       0.000 (*)
-TRB2               0.000 (*)       0.000 (*)
-TRC1               0.000 (*)       0.000 (*)
-TRC2               0.000 (*)       0.000 (*)
-TRE1               0.000 (*)       0.000 (*)
-TRE2               0.000 (*)       0.000 (*)
-TRM1               0.000 (*)       0.000 (*)
-TRM2               0.000 (*)       0.000 (*)
-VAF               80.990          30.700    
-VAR              101.200           0.000 (*)
-VJC              662.200m        700.000m   
-VJE              689.100m        700.000m   
-VJS              750.000m        750.000m(*)
-VTF               20.000           9.998    
-XCJC             594.600m          1.000 (*)
-XTB                0.000           0.000 (*)
-XTF               71.780         506.476m   
-XTI                3.000           3.000 (*)
+Instance:              Q1   
+Using model:    MMBT2222A   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               256.700    
+BR                 6.590    
+CJC               10.110p   
+CJE               25.890p   
+CJS                0.000    
+EG                 1.110    
+FC               938.800m   
+IKF              489.900m   
+IKR              192.900m   
+IRB                1.000m   
+IS                29.130f   
+ISC              320.300p   
+ISE                9.652f   
+ISS                0.000 (*)
+ITF                4.797    
+KF                 0.000 (*)
+MJC              416.000m   
+MJE              366.800m   
+MJS              333.000m   
+NC                 1.608    
+NE                 1.516    
+NF               992.600m   
+NK               500.000m(*)
+NR               984.400m   
+NS                 1.000 (*)
+PTF                0.000    
+RB                 1.000    
+RBM                1.000    
+RC               224.800m   
+RE               193.400m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               293.900p   
+TR               320.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               80.990    
+VAR              101.200    
+VJC              662.200m   
+VJE              689.100m   
+VJS              750.000m   
+VTF               20.000    
+XCJC             594.600m   
+XTB                0.000    
+XTF               71.780    
+XTI                3.000    
 (*) Default Parameter
 
 
@@ -95,7 +95,7 @@ P2                 0.000
 P3                 8.000u   
 P4                 8.000u   
 P5                17.000u   
-VONE               2.000    
+VONE               3.300    
 VZERO              0.000 (*)
 (*) Default Parameter
 
@@ -104,54 +104,54 @@ VZERO              0.000 (*)
 DC Operating Point Voltages
 ===========================
 Node         Voltage  Node         Voltage  Node         Voltage 
-VBAT          2.800   2             2.800   UIN           0.000  
-4            98.285n  5             0.003f  UB          323.796n 
+VBAT          5.000   2             5.000   UIN           0.000  
+UB          321.063n  5             0.005f 
 
 
 Operating point for devices of type Bipolar Junction Transistors NPN
 ====================================================================
-Instance:                 Q1              Q2
-Using model:       MMBT2222A          BC848C
-IB                 -320.729p         -9.828p
-IC                  323.656p         12.895p
-VBE                 323.796n       -225.511n
-VBC                  -2.800          -2.800 
-VCE                   2.800           2.800 
-BETADC               -1.009          -1.312 
-GM                    1.111p        356.372f
-RPI                   3.930T          2.609T
-RX                    1.000           0.000 
-RO                  935.013G        845.493G
-CPI                  25.890p         11.313p
-CMU                   3.021p          3.473p
-CBX                   2.060p          0.000 
-CJS                   0.000           0.000 
-BETAAC                4.366         929.702m
-FT                    5.709m          3.836m
+Instance:                 Q1
+Using model:       MMBT2222A
+IB                 -321.063p
+IC                  326.403p
+VBE                 321.063n
+VBC                  -5.000 
+VCE                   5.000 
+BETADC               -1.017 
+GM                    1.093p
+RPI                   3.930T
+RX                    1.000 
+RO                  889.813G
+CPI                  25.890p
+CMU                   2.462p
+CBX                   1.679p
+CJS                   0.000 
+BETAAC                4.295 
+FT                    5.792m
 
 DC Power Terms:
-PD                  906.237p         36.106p
-PS                    0.000           0.000 
+PD                    1.632n
+PS                    0.000 
 
 DC Pin Currents:
-Ib                 -320.729p         -9.828p
-Ic                  323.656p         12.895p
-Ie                   -2.927p         -3.066p
-Is                    0.000           0.000 
+Ib                 -321.063p
+Ic                  326.403p
+Ie                   -5.340p
+Is                    0.000 
 
 Condition:
-State                    OFF             OFF
+State                    OFF
 
 
 
 Operating point for devices of type Resistor
 ============================================
-Instance:                  R1              R2              R3              R4
+Instance:                  R1              R2              R3
 DC Power Terms:
-PD                 1.133E-019          0.001f      8.567E-030          0.105f
+PD                 1.065E-019          0.103f      2.851E-029
 
 DC Pin Currents:
-Ir                   336.551p         -9.828p          2.927p        323.796p
+Ir                   326.400p       -321.063p          5.340p
 
 
 
@@ -163,7 +163,7 @@ DC Power Terms:
 PG                     0.000 
 
 DC Pin Currents:
-ISource                9.828p
+ISource              321.063p
 
 
 
@@ -171,9 +171,9 @@ Operating point for devices of type SPICE Source
 ================================================
 Instance:                 V1
 DC Power Terms:
-PG                  942.343p
+PG                    1.632n
 
 DC Pin Currents:
-ISource            -336.551p
+ISource            -326.400p
 
 

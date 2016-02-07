@@ -1,0 +1,3 @@
+==== Generation ====
+* Move Acc I2C to I2C1 - to escape from DMA intersection with UART
+* Add Acc Int2 fo magnet data ready
