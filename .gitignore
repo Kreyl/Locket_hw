@@ -20,3 +20,10 @@ RFSimulation/Stohastic1_analyze.hfssresults/
 RFSimulation/Round7_hand.hfssresults/
 RFSimulation/Round_Horda2.hfssresults/
 RFSimulation/Meander.hfssresults/
+RFSimulation/Round7_holes.hfssresults/
+RFSimulation/Round7_holes_MaxGain.hfssresults/
+RFSimulation/Stohastic2.hfssresults/
+RFSimulation/Stohastic3.hfssresults/
+RFSimulation/Stohastic3_minS11.hfssresults/
+*.dat
+*.scr
