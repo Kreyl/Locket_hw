@@ -1,17 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:pcb_details
-LIBS:power
-LIBS:Power_kl
-LIBS:RF ICs
-LIBS:st_kl
-LIBS:Tittar_kl
-LIBS:Transistors_kl
-LIBS:Switches
-LIBS:Sensors
-LIBS:Antennas_kl
-LIBS:Connectors_kl
+EESchema Schematic File Version 4
 LIBS:Locket-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -26,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR29
+L Locket-rescue:GND-RESCUE-Locket #PWR29
 U 1 1 55180E91
 P 6450 6250
 F 0 "#PWR29" H 6540 6230 30  0001 C CNN
@@ -37,7 +26,7 @@ F 3 "" H 6450 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR26
+L Locket-rescue:GND-RESCUE-Locket #PWR26
 U 1 1 55180E97
 P 6200 6250
 F 0 "#PWR26" H 6290 6230 30  0001 C CNN
@@ -48,7 +37,7 @@ F 3 "" H 6200 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L Locket-rescue:GND-RESCUE-Locket #PWR24
 U 1 1 55180E9D
 P 5900 6250
 F 0 "#PWR24" H 5990 6230 30  0001 C CNN
@@ -59,7 +48,7 @@ F 3 "" H 5900 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR20
+L Locket-rescue:GND-RESCUE-Locket #PWR20
 U 1 1 55180EA3
 P 5300 6250
 F 0 "#PWR20" H 5390 6230 30  0001 C CNN
@@ -70,7 +59,7 @@ F 3 "" H 5300 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Locket-rescue:C-RESCUE-Locket C2
 U 1 1 55180EBB
 P 5300 5950
 F 0 "C2" H 5200 5850 50  0000 L CNN
@@ -81,7 +70,7 @@ F 3 "" H 5300 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L Locket-rescue:C-RESCUE-Locket C4
 U 1 1 55180EC2
 P 5900 5950
 F 0 "C4" H 5800 5850 50  0000 L CNN
@@ -92,7 +81,7 @@ F 3 "" H 5900 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L Locket-rescue:C-RESCUE-Locket C6
 U 1 1 55180EC9
 P 6450 5950
 F 0 "C6" H 6350 5850 50  0000 L CNN
@@ -103,7 +92,7 @@ F 3 "" H 6450 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L Locket-rescue:C-RESCUE-Locket C5
 U 1 1 55180ED0
 P 6200 5950
 F 0 "C5" H 6100 5850 50  0000 L CNN
@@ -114,7 +103,7 @@ F 3 "" H 6200 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR17
+L Locket-rescue:GND-RESCUE-Locket #PWR17
 U 1 1 55180ED7
 P 5000 6250
 F 0 "#PWR17" H 5090 6230 30  0001 C CNN
@@ -125,7 +114,7 @@ F 3 "" H 5000 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L Locket-rescue:GND-RESCUE-Locket #PWR22
 U 1 1 55180EE4
 P 5600 6250
 F 0 "#PWR22" H 5690 6230 30  0001 C CNN
@@ -136,7 +125,7 @@ F 3 "" H 5600 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Locket-rescue:C-RESCUE-Locket C3
 U 1 1 55180EEA
 P 5600 5950
 F 0 "C3" H 5500 5850 50  0000 L CNN
@@ -147,7 +136,7 @@ F 3 "" H 5600 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG1
+L Locket-rescue:PWR_FLAG-RESCUE-Locket #FLG1
 U 1 1 551989B4
 P 6450 8850
 F 0 "#FLG1" H 6450 9120 30  0001 C CNN
@@ -158,7 +147,7 @@ F 3 "" H 6450 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR32
+L Locket-rescue:+BATT-RESCUE-Locket #PWR32
 U 1 1 55198A25
 P 6600 8900
 F 0 "#PWR32" H 6600 8860 30  0001 C CNN
@@ -169,7 +158,7 @@ F 3 "" H 6600 8900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR30
+L Locket-rescue:GND-RESCUE-Locket #PWR30
 U 1 1 5519A8F4
 P 6500 7600
 F 0 "#PWR30" H 6590 7580 30  0001 C CNN
@@ -180,7 +169,7 @@ F 3 "" H 6500 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L Locket-rescue:C-RESCUE-Locket C19
 U 1 1 5519A8FA
 P 6500 7300
 F 0 "C19" H 6400 7400 50  0000 L CNN
@@ -191,7 +180,7 @@ F 3 "" H 6500 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR25
+L Locket-rescue:GND-RESCUE-Locket #PWR25
 U 1 1 5519A901
 P 5900 7600
 F 0 "#PWR25" H 5990 7580 30  0001 C CNN
@@ -202,7 +191,7 @@ F 3 "" H 5900 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L Locket-rescue:C-RESCUE-Locket C17
 U 1 1 5519A907
 P 5900 7300
 F 0 "C17" H 5800 7400 50  0000 L CNN
@@ -213,7 +202,7 @@ F 3 "" H 5900 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C18
+L Locket-rescue:C-RESCUE-Locket C18
 U 1 1 5519A90E
 P 6200 7300
 F 0 "C18" H 6100 7400 50  0000 L CNN
@@ -224,7 +213,7 @@ F 3 "" H 6200 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR27
+L Locket-rescue:GND-RESCUE-Locket #PWR27
 U 1 1 5519A915
 P 6200 7600
 F 0 "#PWR27" H 6290 7580 30  0001 C CNN
@@ -235,7 +224,7 @@ F 3 "" H 6200 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L Locket-rescue:GND-RESCUE-Locket #PWR23
 U 1 1 5519A91B
 P 5600 7600
 F 0 "#PWR23" H 5690 7580 30  0001 C CNN
@@ -246,7 +235,7 @@ F 3 "" H 5600 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L Locket-rescue:C-RESCUE-Locket C16
 U 1 1 5519A921
 P 5600 7300
 F 0 "C16" H 5500 7400 50  0000 L CNN
@@ -257,7 +246,7 @@ F 3 "" H 5600 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L Locket-rescue:C-RESCUE-Locket C15
 U 1 1 5519A928
 P 5300 7300
 F 0 "C15" H 5200 7400 50  0000 L CNN
@@ -268,7 +257,7 @@ F 3 "" H 5300 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR21
+L Locket-rescue:GND-RESCUE-Locket #PWR21
 U 1 1 5519A92F
 P 5300 7600
 F 0 "#PWR21" H 5390 7580 30  0001 C CNN
@@ -279,7 +268,7 @@ F 3 "" H 5300 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR18
+L Locket-rescue:GND-RESCUE-Locket #PWR18
 U 1 1 5519A935
 P 5000 7600
 F 0 "#PWR18" H 5090 7580 30  0001 C CNN
@@ -290,7 +279,7 @@ F 3 "" H 5000 7600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L Locket-rescue:C-RESCUE-Locket C14
 U 1 1 5519A93B
 P 5000 7300
 F 0 "C14" H 4900 7400 50  0000 L CNN
@@ -317,7 +306,7 @@ SWCLK
 Text Label 5950 2900 0    60   ~ 0
 SWDIO
 $Comp
-L GND #PWR15
+L Locket-rescue:GND-RESCUE-Locket #PWR15
 U 1 1 551AB282
 P 4350 4500
 F 0 "#PWR15" H 4440 4480 30  0001 C CNN
@@ -342,7 +331,7 @@ CC_MISO
 Text Label 5850 2300 0    60   ~ 0
 CC_MOSI
 $Comp
-L LED_RGB Q1
+L Locket-rescue:LED_RGB-RESCUE-Locket Q1
 U 1 1 551AB468
 P 2300 5950
 F 0 "Q1" H 2050 6400 60  0000 C CNN
@@ -355,7 +344,7 @@ $EndComp
 Text Label 5950 2600 0    60   ~ 0
 UART_RX
 $Comp
-L L L2
+L Locket-rescue:L-RESCUE-Locket L2
 U 1 1 551B2771
 P 4600 5650
 F 0 "L2" V 4450 5500 40  0000 C CNN
@@ -368,7 +357,7 @@ $EndComp
 Text Notes 1950 6800 0    60   ~ 0
 Power +3V3
 $Comp
-L +3.3V #PWR12
+L Locket-rescue:+3.3V-RESCUE-Locket #PWR12
 U 1 1 551FAC68
 P 3400 7100
 F 0 "#PWR12" H 3400 7060 30  0001 C CNN
@@ -381,7 +370,7 @@ $EndComp
 Text Label 1900 7100 0    60   ~ 0
 Lout
 $Comp
-L L L1
+L Locket-rescue:L-RESCUE-Locket L1
 U 1 1 551FAC9C
 P 1650 7100
 F 0 "L1" V 1560 7010 40  0000 C CNN
@@ -392,7 +381,7 @@ F 3 "" H 1650 7100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L NCP1400 DA1
+L Locket-rescue:NCP1400-RESCUE-Locket DA1
 U 1 1 551FACBD
 P 2400 7450
 F 0 "DA1" H 2200 7700 60  0000 C CNN
@@ -404,7 +393,7 @@ F 3 "" H 2400 7450 60  0001 C CNN
 $EndComp
 NoConn ~ 5750 3700
 $Comp
-L BUTTON SW2
+L Locket-rescue:BUTTON-RESCUE-Locket SW2
 U 1 1 55207597
 P 6150 1450
 F 0 "SW2" H 5950 1600 50  0000 C CNN
@@ -415,7 +404,7 @@ F 3 "" H 6150 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L Locket-rescue:GND-RESCUE-Locket #PWR16
 U 1 1 55250AC5
 P 4900 9800
 F 0 "#PWR16" H 4990 9780 30  0001 C CNN
@@ -428,7 +417,7 @@ $EndComp
 Text Label 4950 8900 0    60   ~ 0
 BAT_IN
 $Comp
-L GND #PWR35
+L Locket-rescue:GND-RESCUE-Locket #PWR35
 U 1 1 55255223
 P 7550 3300
 F 0 "#PWR35" H 7640 3280 30  0001 C CNN
@@ -489,7 +478,7 @@ Entry Wire Line
 Entry Wire Line
 	6550 3900 6450 4000
 $Comp
-L GND #PWR36
+L Locket-rescue:GND-RESCUE-Locket #PWR36
 U 1 1 55278AF6
 P 7550 4000
 F 0 "#PWR36" H 7640 3980 30  0001 C CNN
@@ -506,7 +495,7 @@ I2C_SDA
 Text Label 9600 7900 0    60   ~ 0
 I2C_SCL
 $Comp
-L R R10
+L Locket-rescue:R-RESCUE-Locket R10
 U 1 1 5527E5CE
 P 9250 7900
 F 0 "R10" V 9330 7900 50  0000 C CNN
@@ -517,7 +506,7 @@ F 3 "" H 9250 7900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R11
+L Locket-rescue:R-RESCUE-Locket R11
 U 1 1 5527E5D5
 P 9250 8000
 F 0 "R11" V 9330 8000 50  0000 C CNN
@@ -540,7 +529,7 @@ Entry Wire Line
 Entry Wire Line
 	6350 3100 6450 3200
 $Comp
-L SWITCH SW4
+L Locket-rescue:SWITCH-RESCUE-Locket SW4
 U 1 1 5528A9A9
 P 5750 8900
 F 0 "SW4" H 5500 9150 60  0000 C CNN
@@ -552,7 +541,7 @@ F 3 "" H 5750 8900 60  0000 C CNN
 $EndComp
 NoConn ~ 5500 8800
 $Comp
-L +BATT #PWR1
+L Locket-rescue:+BATT-RESCUE-Locket #PWR1
 U 1 1 55523586
 P 950 7100
 F 0 "#PWR1" H 950 7060 30  0001 C CNN
@@ -563,7 +552,7 @@ F 3 "" H 950 7100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L Locket-rescue:GND-RESCUE-Locket #PWR3
 U 1 1 55525303
 P 1100 7650
 F 0 "#PWR3" H 1190 7630 30  0001 C CNN
@@ -574,7 +563,7 @@ F 3 "" H 1100 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L Locket-rescue:GND-RESCUE-Locket #PWR8
 U 1 1 55525365
 P 1950 7650
 F 0 "#PWR8" H 2040 7630 30  0001 C CNN
@@ -585,7 +574,7 @@ F 3 "" H 1950 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L Locket-rescue:GND-RESCUE-Locket #PWR4
 U 1 1 555258FB
 P 1350 7650
 F 0 "#PWR4" H 1440 7630 30  0001 C CNN
@@ -596,7 +585,7 @@ F 3 "" H 1350 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L Locket-rescue:GND-RESCUE-Locket #PWR11
 U 1 1 55525429
 P 3300 7650
 F 0 "#PWR11" H 3390 7630 30  0001 C CNN
@@ -615,7 +604,7 @@ CC Power Filter
 Text Notes 4650 6850 0    60   ~ 0
 Pins  15,   14,    11,    9,     4,    18
 $Comp
-L PWR_FLAG #FLG2
+L Locket-rescue:PWR_FLAG-RESCUE-Locket #FLG2
 U 1 1 5554364F
 P 6600 5500
 F 0 "#FLG2" H 6600 5770 30  0001 C CNN
@@ -626,7 +615,7 @@ F 3 "" H 6600 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG3
+L Locket-rescue:PWR_FLAG-RESCUE-Locket #FLG3
 U 1 1 555440CB
 P 6650 6850
 F 0 "#FLG3" H 6650 7120 30  0001 C CNN
@@ -637,7 +626,7 @@ F 3 "" H 6650 6850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR14
+L Locket-rescue:+BATT-RESCUE-Locket #PWR14
 U 1 1 56958520
 P 4300 5650
 F 0 "#PWR14" H 4300 5610 30  0001 C CNN
@@ -648,7 +637,7 @@ F 3 "" H 4300 5650 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR13
+L Locket-rescue:+BATT-RESCUE-Locket #PWR13
 U 1 1 569585BA
 P 4100 7000
 F 0 "#PWR13" H 4100 6960 30  0001 C CNN
@@ -659,7 +648,7 @@ F 3 "" H 4100 7000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PwrMCU #PWR33
+L Locket-rescue:PwrMCU-RESCUE-Locket #PWR33
 U 1 1 5695BD53
 P 6700 5650
 F 0 "#PWR33" H 6700 5700 30  0001 C CNN
@@ -670,7 +659,7 @@ F 3 "" H 6700 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR34
+L Locket-rescue:VCC-RESCUE-Locket #PWR34
 U 1 1 5695E69E
 P 6750 7000
 F 0 "#PWR34" H 6750 7050 30  0001 C CNN
@@ -681,7 +670,7 @@ F 3 "" H 6750 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PwrMCU #PWR9
+L Locket-rescue:PwrMCU-RESCUE-Locket #PWR9
 U 1 1 5695FD17
 P 2800 3950
 F 0 "#PWR9" H 2800 4000 30  0001 C CNN
@@ -692,7 +681,7 @@ F 3 "" H 2800 3950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PwrMCU #PWR31
+L Locket-rescue:PwrMCU-RESCUE-Locket #PWR31
 U 1 1 569619BD
 P 6550 1450
 F 0 "#PWR31" H 6550 1500 30  0001 C CNN
@@ -703,7 +692,7 @@ F 3 "" H 6550 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR28
+L Locket-rescue:GND-RESCUE-Locket #PWR28
 U 1 1 56967B81
 P 6200 9600
 F 0 "#PWR28" H 6290 9580 30  0001 C CNN
@@ -715,14 +704,14 @@ F 3 "" H 6200 9600 60  0001 C CNN
 $EndComp
 Connection ~ 1100 5950
 Wire Wire Line
-	1100 5750 1100 6150
+	1100 5750 1100 5950
 Wire Wire Line
 	3200 5950 2700 5950
 Connection ~ 6200 8900
 Wire Wire Line
 	5750 1600 5850 1600
 Wire Wire Line
-	2800 3950 3100 3950
+	2800 3950 3000 3950
 Connection ~ 6650 7000
 Wire Wire Line
 	6650 7000 6650 6850
@@ -742,7 +731,7 @@ Wire Notes Line
 Wire Notes Line
 	5150 6750 5150 7600
 Wire Wire Line
-	4600 7000 6750 7000
+	4600 7000 5000 7000
 Connection ~ 6200 7000
 Wire Wire Line
 	6200 7100 6200 7000
@@ -783,7 +772,7 @@ Connection ~ 3000 3950
 Wire Wire Line
 	3000 3800 3100 3800
 Wire Wire Line
-	3000 3450 3000 3950
+	3000 3450 3000 3550
 Connection ~ 6200 5650
 Wire Wire Line
 	6200 5750 6200 5650
@@ -802,7 +791,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 5650 6450 5750
 Wire Wire Line
-	4800 5650 6700 5650
+	4800 5650 5000 5650
 Wire Wire Line
 	4300 5650 4400 5650
 Wire Wire Line
@@ -818,9 +807,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 7450 2900 7450
 Wire Wire Line
-	950  7100 1450 7100
+	950  7100 1100 7100
 Wire Wire Line
-	1000 5950 1200 5950
+	1000 5950 1100 5950
 Wire Wire Line
 	2700 6100 3150 6100
 Wire Wire Line
@@ -833,8 +822,6 @@ Wire Wire Line
 	5750 2700 6350 2700
 Wire Wire Line
 	5750 2400 6350 2400
-Wire Bus Line
-	6650 2400 6650 1700
 Wire Wire Line
 	3100 2700 2650 2700
 Wire Wire Line
@@ -842,7 +829,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 7900 9600 7900
 Wire Wire Line
-	9000 7900 9000 8000
+	9000 7900 9000 7950
 Connection ~ 9000 7950
 Wire Wire Line
 	9600 8000 9500 8000
@@ -858,7 +845,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3600 7400 3600
 Wire Wire Line
-	7550 3400 7550 4000
+	7550 3400 7550 3500
 Wire Wire Line
 	6900 3700 6550 3700
 Wire Wire Line
@@ -867,8 +854,6 @@ Wire Wire Line
 	6900 3500 6550 3500
 Wire Wire Line
 	6900 3400 6550 3400
-Wire Bus Line
-	6450 2400 6450 4050
 Wire Wire Line
 	6850 3000 6550 3000
 Wire Wire Line
@@ -889,7 +874,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 2900 7450 2900
 Wire Wire Line
-	7550 2700 7550 3300
+	7550 2700 7550 2800
 Wire Wire Line
 	4900 8900 4900 9050
 Wire Wire Line
@@ -903,12 +888,12 @@ Wire Wire Line
 Wire Wire Line
 	1100 5750 1200 5750
 Wire Wire Line
-	2550 7100 3400 7100
+	2550 7100 2850 7100
 Connection ~ 2850 7100
 Wire Wire Line
 	2850 7350 2800 7350
 Wire Wire Line
-	1850 7100 2150 7100
+	1850 7100 1950 7100
 Wire Wire Line
 	1100 7550 1100 7650
 Wire Wire Line
@@ -931,11 +916,11 @@ Wire Wire Line
 	4250 4250 4250 4350
 Connection ~ 4350 4350
 Wire Wire Line
-	4150 4350 4600 4350
+	4150 4350 4250 4350
 Wire Wire Line
 	4150 4250 4150 4350
 Wire Wire Line
-	4350 4500 4350 4250
+	4350 4500 4350 4350
 Wire Wire Line
 	5950 2600 5750 2600
 Wire Wire Line
@@ -996,7 +981,7 @@ Connection ~ 6450 8900
 Wire Wire Line
 	6450 8850 6450 8900
 Wire Wire Line
-	6100 8900 6600 8900
+	6100 8900 6200 8900
 Wire Wire Line
 	5600 6150 5600 6250
 Wire Wire Line
@@ -1020,7 +1005,7 @@ LED_EN
 Wire Wire Line
 	3100 1800 2500 1800
 $Comp
-L +3.3V #PWR2
+L Locket-rescue:+3.3V-RESCUE-Locket #PWR2
 U 1 1 569567C6
 P 1000 5950
 F 0 "#PWR2" H 1000 5910 30  0001 C CNN
@@ -1031,7 +1016,7 @@ F 3 "" H 1000 5950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PwrMCU #PWR38
+L Locket-rescue:PwrMCU-RESCUE-Locket #PWR38
 U 1 1 569599DB
 P 8850 7950
 F 0 "#PWR38" H 8850 8000 30  0001 C CNN
@@ -1046,7 +1031,7 @@ Wire Wire Line
 Text Notes 950  2450 0    60   ~ 0
 Periphery\n\nPA0: WKUP\nT3 C2, 3, 4: LED RGB\nT10C1: Vibro\nT11C1: Buzzer\nI2C1: Pill \nI2C2: MEMS Sns\nSPI1: CC\nUART1: Debug UART\n\nDMA\nC1: ADC\nC4: USART1 TX\nC5: USART1 RX\nC6: I2C1 TX (Pill)\nC7: I2C1 RX (Pill)\n\n
 $Comp
-L L L3
+L Locket-rescue:L-RESCUE-Locket L3
 U 1 1 569616A1
 P 4400 7000
 F 0 "L3" V 4250 6850 40  0000 C CNN
@@ -1059,7 +1044,7 @@ $EndComp
 Wire Wire Line
 	5850 1600 5850 1450
 $Comp
-L DIPx6 SW1
+L Locket-rescue:DIPx6-RESCUE-Locket SW1
 U 1 1 56984F3E
 P 7150 2850
 F 0 "SW1" H 7350 3200 60  0000 C CNN
@@ -1136,7 +1121,7 @@ Wire Notes Line
 Wire Notes Line
 	3750 5050 3750 11200
 $Comp
-L GND #PWR10
+L Locket-rescue:GND-RESCUE-Locket #PWR10
 U 1 1 569F6524
 P 2900 8500
 F 0 "#PWR10" H 2990 8480 30  0001 C CNN
@@ -1149,12 +1134,12 @@ $EndComp
 Wire Wire Line
 	2900 8400 2900 8500
 Wire Wire Line
-	2900 7450 2900 7900
+	2900 7450 2900 7800
 Connection ~ 2900 7800
 Wire Wire Line
 	2900 7800 3000 7800
 $Comp
-L TESTPOINT TP1
+L Locket-rescue:TESTPOINT-RESCUE-Locket TP1
 U 1 1 5714B04B
 P 3000 3300
 F 0 "TP1" H 2775 3300 60  0000 C CNN
@@ -1167,7 +1152,7 @@ F 5 "0" H 3200 3650 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuse0R F1
+L Locket-rescue:Fuse0R-RESCUE-Locket F1
 U 1 1 57184805
 P 7150 3400
 F 0 "F1" V 7150 3900 50  0000 C CNN
@@ -1180,7 +1165,7 @@ F 5 "0" V 7280 3600 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse0R F2
+L Locket-rescue:Fuse0R-RESCUE-Locket F2
 U 1 1 57184BC7
 P 7150 3500
 F 0 "F2" V 7150 4000 50  0000 C CNN
@@ -1193,7 +1178,7 @@ F 5 "0" V 7280 3700 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse0R F3
+L Locket-rescue:Fuse0R-RESCUE-Locket F3
 U 1 1 57184C85
 P 7150 3600
 F 0 "F3" V 7150 4100 50  0000 C CNN
@@ -1206,7 +1191,7 @@ F 5 "0" V 7280 3800 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse0R F4
+L Locket-rescue:Fuse0R-RESCUE-Locket F4
 U 1 1 57184C8D
 P 7150 3700
 F 0 "F4" V 7150 4200 50  0000 C CNN
@@ -1219,7 +1204,7 @@ F 5 "0" V 7280 3900 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse0R F5
+L Locket-rescue:Fuse0R-RESCUE-Locket F5
 U 1 1 57184D4F
 P 7150 3800
 F 0 "F5" V 7150 4300 50  0000 C CNN
@@ -1232,7 +1217,7 @@ F 5 "0" V 7280 4000 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse0R F6
+L Locket-rescue:Fuse0R-RESCUE-Locket F6
 U 1 1 57184D57
 P 7150 3900
 F 0 "F6" V 7150 4400 50  0000 C CNN
@@ -1245,7 +1230,7 @@ F 5 "0" V 7280 4100 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Logo Logo1
+L Locket-rescue:Logo-RESCUE-Locket Logo1
 U 1 1 57188192
 P 14400 9300
 F 0 "Logo1" H 14300 9750 60  0000 C CNN
@@ -1256,7 +1241,7 @@ F 3 "" H 14400 9300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32L151CxTx DD1
+L Locket-rescue:STM32L151CxTx-RESCUE-Locket DD1
 U 1 1 571889F4
 P 4400 2800
 F 0 "DD1" H 3900 4150 60  0000 C CNN
@@ -1272,7 +1257,7 @@ $EndComp
 Text Notes 700  4100 0    60   ~ 0
 Programming & debug
 $Comp
-L GND #PWR7
+L Locket-rescue:GND-RESCUE-Locket #PWR7
 U 1 1 57180826
 P 1600 4500
 F 0 "#PWR7" H 1690 4480 30  0001 C CNN
@@ -1291,7 +1276,7 @@ UART_TX
 Text Label 1300 4800 0    60   ~ 0
 UART_RX
 $Comp
-L PwrMCU #PWR6
+L Locket-rescue:PwrMCU-RESCUE-Locket #PWR6
 U 1 1 57180830
 P 1500 4300
 F 0 "#PWR6" H 1500 4350 30  0001 C CNN
@@ -1312,7 +1297,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 4400 1050 4400
 $Comp
-L CONN_6 XL1
+L Locket-rescue:CONN_6-RESCUE-Locket XL1
 U 1 1 5718083C
 P 850 4550
 F 0 "XL1" V 800 4550 50  0000 C CNN
@@ -1328,7 +1313,7 @@ Wire Wire Line
 Text Label 13300 6400 0    60   ~ 0
 Vibro_CTRL
 $Comp
-L CONN_1 XL3
+L Locket-rescue:CONN_1-RESCUE-Locket XL3
 U 1 1 5718681B
 P 14900 5500
 F 0 "XL3" V 14850 5510 40  0000 C CNN
@@ -1341,7 +1326,7 @@ F 5 "0" V 14900 5500 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 XL4
+L Locket-rescue:CONN_1-RESCUE-Locket XL4
 U 1 1 57186824
 P 14900 6100
 F 0 "XL4" V 14850 6110 40  0000 C CNN
@@ -1354,7 +1339,7 @@ F 5 "0" V 14900 6100 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13700 5500 14700 5500
+	13700 5500 13900 5500
 Wire Wire Line
 	14550 6100 14700 6100
 Text Notes 14200 5250 0    60   ~ 0
@@ -1363,10 +1348,10 @@ Wire Wire Line
 	14550 5600 14550 5500
 Connection ~ 14550 5500
 Wire Wire Line
-	14550 6000 14550 6200
+	14550 6000 14550 6100
 Connection ~ 14550 6100
 $Comp
-L GND #PWR60
+L Locket-rescue:GND-RESCUE-Locket #PWR60
 U 1 1 57186838
 P 14550 6700
 F 0 "#PWR60" H 14640 6680 30  0001 C CNN
@@ -1379,7 +1364,7 @@ $EndComp
 Wire Wire Line
 	14550 6600 14550 6700
 $Comp
-L R R13
+L Locket-rescue:R-RESCUE-Locket R13
 U 1 1 57186841
 P 13950 6400
 F 0 "R13" V 14030 6250 50  0000 C CNN
@@ -1396,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 6400 14300 6400
 $Comp
-L NPN Q3
+L Locket-rescue:NPN-RESCUE-Locket Q3
 U 1 1 5718684E
 P 14500 6400
 F 0 "Q3" H 14700 6450 60  0000 C CNN
@@ -1416,7 +1401,7 @@ Wire Wire Line
 	13900 5600 13900 5500
 Connection ~ 13900 5500
 $Comp
-L GND #PWR58
+L Locket-rescue:GND-RESCUE-Locket #PWR58
 U 1 1 57186858
 P 13900 6100
 F 0 "#PWR58" H 13990 6080 30  0001 C CNN
@@ -1429,7 +1414,7 @@ $EndComp
 Wire Wire Line
 	13900 6000 13900 6100
 $Comp
-L C C25
+L Locket-rescue:C-RESCUE-Locket C25
 U 1 1 57186863
 P 13900 5800
 F 0 "C25" H 13800 5700 50  0000 L CNN
@@ -1444,7 +1429,7 @@ F 7 "https://www.terraelectronica.ru/catalog.php?ID=1155&search=cl10a106mq8nnnc"
 	1    0    0    1   
 $EndComp
 $Comp
-L D_Shottky D2
+L Locket-rescue:D_Shottky-RESCUE-Locket D2
 U 1 1 5718686D
 P 14550 5800
 F 0 "D2" H 14550 5900 40  0000 C CNN
@@ -1458,7 +1443,7 @@ F 6 "2" H 14550 5800 60  0001 C CNN "SolderPoints"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MOTOR_NO_CONTACTS M1
+L Locket-rescue:MOTOR_NO_CONTACTS-RESCUE-Locket M1
 U 1 1 57186878
 P 14450 7650
 F 0 "M1" H 13950 8200 60  0000 C CNN
@@ -1479,7 +1464,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 9600 6200 9450
 $Comp
-L C C10
+L Locket-rescue:C-RESCUE-Locket C10
 U 1 1 5718DC27
 P 6200 9250
 F 0 "C10" H 6100 9150 50  0000 L CNN
@@ -1500,7 +1485,7 @@ PWR_PILL_PROT
 Text Notes 800  10000 0    60   ~ 0
 Pill \nConnector
 $Comp
-L GND #PWR5
+L Locket-rescue:GND-RESCUE-Locket #PWR5
 U 1 1 57190894
 P 1350 10300
 F 0 "#PWR5" H 1440 10280 30  0001 C CNN
@@ -1521,10 +1506,10 @@ PWR_PILL
 Wire Wire Line
 	2400 10100 2400 9950
 Wire Wire Line
-	1500 9400 2550 9400
+	1500 9400 1700 9400
 Connection ~ 1500 10200
 Wire Wire Line
-	1800 10200 1200 10200
+	1800 10200 1500 10200
 Wire Wire Line
 	1500 10200 1500 9950
 Connection ~ 1700 9400
@@ -1539,13 +1524,13 @@ Wire Wire Line
 Wire Wire Line
 	1700 10400 1700 9950
 Wire Wire Line
-	1800 10400 1200 10400
+	1800 10400 1700 10400
 Connection ~ 1700 10400
 Wire Wire Line
 	2400 9450 2400 9400
 Connection ~ 2400 9400
 $Comp
-L R R4
+L Locket-rescue:R-RESCUE-Locket R4
 U 1 1 571908AF
 P 1500 9700
 F 0 "R4" V 1580 9550 50  0000 C CNN
@@ -1558,7 +1543,7 @@ F 5 "2" V 1780 9750 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Locket-rescue:R-RESCUE-Locket R5
 U 1 1 571908B8
 P 1700 9700
 F 0 "R5" V 1780 9550 50  0000 C CNN
@@ -1571,7 +1556,7 @@ F 5 "2" V 1980 9750 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Locket-rescue:R-RESCUE-Locket R6
 U 1 1 571908C1
 P 2400 9700
 F 0 "R6" V 2480 9550 50  0000 C CNN
@@ -1584,7 +1569,7 @@ F 5 "2" V 2680 9750 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_4 XL2
+L Locket-rescue:CONN_4-RESCUE-Locket XL2
 U 1 1 571908CD
 P 1000 10250
 F 0 "XL2" V 950 10250 40  0000 C CNN
@@ -1608,7 +1593,7 @@ SDA_PILL
 Text Notes 11100 1700 0    60   ~ 0
 Radio
 $Comp
-L GND #PWR43
+L Locket-rescue:GND-RESCUE-Locket #PWR43
 U 1 1 57197DB1
 P 9500 4000
 F 0 "#PWR43" H 9590 3980 30  0001 C CNN
@@ -1619,7 +1604,7 @@ F 3 "" H 9500 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR39
+L Locket-rescue:GND-RESCUE-Locket #PWR39
 U 1 1 57197DB7
 P 9000 4000
 F 0 "#PWR39" H 9090 3980 30  0001 C CNN
@@ -1630,7 +1615,7 @@ F 3 "" H 9000 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR41
+L Locket-rescue:GND-RESCUE-Locket #PWR41
 U 1 1 57197DBD
 P 9250 4000
 F 0 "#PWR41" H 9340 3980 30  0001 C CNN
@@ -1655,7 +1640,7 @@ RF2
 Text Label 11550 2200 0    60   ~ 0
 RF1
 $Comp
-L GND #PWR53
+L Locket-rescue:GND-RESCUE-Locket #PWR53
 U 1 1 57197DCA
 P 11500 3600
 F 0 "#PWR53" H 11590 3580 30  0001 C CNN
@@ -1666,7 +1651,7 @@ F 3 "" H 11500 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR51
+L Locket-rescue:GND-RESCUE-Locket #PWR51
 U 1 1 57197DD0
 P 10800 4000
 F 0 "#PWR51" H 10890 3980 30  0001 C CNN
@@ -1677,7 +1662,7 @@ F 3 "" H 10800 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR44
+L Locket-rescue:GND-RESCUE-Locket #PWR44
 U 1 1 57197DD6
 P 9800 4000
 F 0 "#PWR44" H 9890 3980 30  0001 C CNN
@@ -1688,7 +1673,7 @@ F 3 "" H 9800 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR45
+L Locket-rescue:GND-RESCUE-Locket #PWR45
 U 1 1 57197DDC
 P 10050 4000
 F 0 "#PWR45" H 10140 3980 30  0001 C CNN
@@ -1699,7 +1684,7 @@ F 3 "" H 10050 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR56
+L Locket-rescue:GND-RESCUE-Locket #PWR56
 U 1 1 57197DE2
 P 13600 2950
 F 0 "#PWR56" H 13690 2930 30  0001 C CNN
@@ -1712,7 +1697,7 @@ $EndComp
 Text Notes 13600 1850 0    60   ~ 0
 Matching circuit
 $Comp
-L GND #PWR55
+L Locket-rescue:GND-RESCUE-Locket #PWR55
 U 1 1 57197DE9
 P 12350 2950
 F 0 "#PWR55" H 12440 2930 30  0001 C CNN
@@ -1739,7 +1724,7 @@ Entry Wire Line
 Text Label 8850 2550 0    60   ~ 0
 CC_GDO2
 $Comp
-L GND #PWR59
+L Locket-rescue:GND-RESCUE-Locket #PWR59
 U 1 1 57197DF7
 P 14300 2950
 F 0 "#PWR59" H 14390 2930 30  0001 C CNN
@@ -1760,7 +1745,7 @@ Entry Wire Line
 Text Notes 8450 2000 0    60   ~ 0
 Keep CS High\nwhen sleeping
 $Comp
-L VCC #PWR54
+L Locket-rescue:VCC-RESCUE-Locket #PWR54
 U 1 1 57197E03
 P 11700 3100
 F 0 "#PWR54" H 11700 3150 30  0001 C CNN
@@ -1771,7 +1756,7 @@ F 3 "" H 11700 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR37
+L Locket-rescue:VCC-RESCUE-Locket #PWR37
 U 1 1 57197E09
 P 8400 2150
 F 0 "#PWR37" H 8400 2200 30  0001 C CNN
@@ -1782,7 +1767,7 @@ F 3 "" H 8400 2150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CC1101 DD3
+L Locket-rescue:CC1101-RESCUE-Locket DD3
 U 1 1 57197E12
 P 10850 2850
 F 0 "DD3" H 10400 3650 60  0000 C CNN
@@ -1796,7 +1781,7 @@ F 6 "21" H 10700 3950 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL_H XTAL1
+L Locket-rescue:CRYSTAL_H-RESCUE-Locket XTAL1
 U 1 1 57197E1B
 P 9250 3450
 F 0 "XTAL1" H 9250 3725 60  0000 C CNN
@@ -1809,7 +1794,7 @@ F 5 "4" H 9450 3925 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L Locket-rescue:C-RESCUE-Locket C11
 U 1 1 57197E24
 P 9000 3700
 F 0 "C11" H 8900 3600 50  0000 L CNN
@@ -1822,7 +1807,7 @@ F 5 "2" H 9100 3800 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L Locket-rescue:C-RESCUE-Locket C12
 U 1 1 57197E2D
 P 9500 3700
 F 0 "C12" H 9400 3600 50  0000 L CNN
@@ -1835,7 +1820,7 @@ F 5 "2" H 9600 3800 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Locket-rescue:R-RESCUE-Locket R12
 U 1 1 57197E36
 P 10050 3700
 F 0 "R12" V 10130 3550 50  0000 C CNN
@@ -1848,7 +1833,7 @@ F 5 "2" V 10330 3750 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L4
+L Locket-rescue:L-RESCUE-Locket L4
 U 1 1 57197E49
 P 13950 2200
 F 0 "L4" V 13850 2060 40  0000 C CNN
@@ -1861,7 +1846,7 @@ F 5 "2" V 14050 2260 60  0001 C CNN "SolderPoints"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C23
+L Locket-rescue:C-RESCUE-Locket C23
 U 1 1 57197E52
 P 13600 2700
 F 0 "C23" H 13500 2600 50  0000 L CNN
@@ -1874,7 +1859,7 @@ F 5 "2" H 13700 2800 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L Locket-rescue:C-RESCUE-Locket C24
 U 1 1 57197E5B
 P 14300 2700
 F 0 "C24" H 14200 2600 50  0000 L CNN
@@ -1887,7 +1872,7 @@ F 5 "2" H 14400 2800 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Locket-rescue:R-RESCUE-Locket R8
 U 1 1 57197E6D
 P 8700 2150
 F 0 "R8" V 8780 2000 50  0000 C CNN
@@ -1900,7 +1885,7 @@ F 5 "2" V 8980 2200 60  0001 C CNN "SolderPoints"
 	0    1    -1   0   
 $EndComp
 $Comp
-L TESTPOINT TP3
+L Locket-rescue:TESTPOINT-RESCUE-Locket TP3
 U 1 1 57197E76
 P 8800 2550
 F 0 "TP3" H 8575 2550 60  0000 C CNN
@@ -1930,9 +1915,9 @@ Connection ~ 11550 3000
 Wire Wire Line
 	11450 3000 11550 3000
 Wire Wire Line
-	11450 3100 11700 3100
+	11450 3100 11550 3100
 Wire Wire Line
-	11550 2600 11550 3100
+	11550 2600 11550 2700
 Wire Wire Line
 	11450 2600 11550 2600
 Wire Wire Line
@@ -1940,7 +1925,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 2200 11800 2200
 Wire Wire Line
-	13350 2200 13750 2200
+	13350 2200 13600 2200
 Connection ~ 13600 2200
 Wire Wire Line
 	14300 2900 14300 2950
@@ -1948,15 +1933,13 @@ Wire Wire Line
 	14300 2200 14300 2500
 Wire Wire Line
 	8800 2550 9350 2550
-Wire Bus Line
-	9450 1700 9450 2800
 Wire Wire Line
 	9550 2700 10100 2700
 Connection ~ 14300 2200
 Wire Wire Line
-	14150 2200 14700 2200
+	14150 2200 14300 2200
 Wire Wire Line
-	12350 2650 12350 2950
+	12350 2650 12350 2750
 Wire Wire Line
 	13600 2900 13600 2950
 Wire Wire Line
@@ -1991,7 +1974,7 @@ Wire Wire Line
 	11450 3400 11500 3400
 Connection ~ 11500 3400
 Wire Wire Line
-	11500 3600 11500 3300
+	11500 3600 11500 3400
 Wire Wire Line
 	9550 2300 10100 2300
 Wire Wire Line
@@ -2003,17 +1986,17 @@ Connection ~ 9500 3450
 Wire Wire Line
 	9500 3900 9500 4000
 Wire Wire Line
-	9000 3000 9000 3500
+	9000 3000 9000 3450
 Wire Wire Line
 	10100 3000 9000 3000
 Wire Wire Line
 	9500 3100 10100 3100
 Wire Wire Line
-	9500 3500 9500 3100
+	9500 3500 9500 3450
 Wire Bus Line
 	6650 1700 9450 1700
 $Comp
-L C C13
+L Locket-rescue:C-RESCUE-Locket C13
 U 1 1 57197EB8
 P 9800 3700
 F 0 "C13" H 9700 3600 50  0000 L CNN
@@ -2026,7 +2009,7 @@ F 5 "2" H 9900 3800 60  0001 C CNN "SolderPoints"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R1
+L Locket-rescue:R-RESCUE-Locket R1
 U 1 1 5724111E
 P 1450 5750
 F 0 "R1" V 1500 5550 50  0000 C CNN
@@ -2039,7 +2022,7 @@ F 5 "2" V 1730 5800 60  0001 C CNN "SolderPoints"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L Locket-rescue:R-RESCUE-Locket R2
 U 1 1 5724151D
 P 1450 5950
 F 0 "R2" V 1500 5750 50  0000 C CNN
@@ -2052,7 +2035,7 @@ F 5 "2" V 1730 6000 60  0001 C CNN "SolderPoints"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L Locket-rescue:R-RESCUE-Locket R3
 U 1 1 572415DA
 P 1450 6150
 F 0 "R3" V 1500 5950 50  0000 C CNN
@@ -2065,7 +2048,7 @@ F 5 "2" V 1730 6200 60  0001 C CNN "SolderPoints"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C9
+L Locket-rescue:C-RESCUE-Locket C9
 U 1 1 57248266
 P 5000 5950
 F 0 "C9" H 4900 5850 50  0000 L CNN
@@ -2084,7 +2067,7 @@ I2C_SCL
 Text Label 8150 9450 0    60   ~ 0
 I2C_SDA
 $Comp
-L MMA8452Q DD2
+L Locket-rescue:MMA8452Q-RESCUE-Locket DD2
 U 1 1 5723F722
 P 9300 9700
 F 0 "DD2" H 9650 10200 60  0000 C CNN
@@ -2095,7 +2078,7 @@ F 3 "" H 9300 9700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR40
+L Locket-rescue:GND-RESCUE-Locket #PWR40
 U 1 1 5723F729
 P 9000 10350
 F 0 "#PWR40" H 9090 10330 30  0001 C CNN
@@ -2108,7 +2091,7 @@ $EndComp
 Text Label 8150 9600 0    60   ~ 0
 ACC_INT1
 $Comp
-L GND #PWR46
+L Locket-rescue:GND-RESCUE-Locket #PWR46
 U 1 1 5723F745
 P 10100 10350
 F 0 "#PWR46" H 10190 10330 30  0001 C CNN
@@ -2119,7 +2102,7 @@ F 3 "" H 10100 10350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR48
+L Locket-rescue:GND-RESCUE-Locket #PWR48
 U 1 1 5723F74B
 P 10350 10350
 F 0 "#PWR48" H 10440 10330 30  0001 C CNN
@@ -2130,7 +2113,7 @@ F 3 "" H 10350 10350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR49
+L Locket-rescue:GND-RESCUE-Locket #PWR49
 U 1 1 5723F751
 P 10600 10350
 F 0 "#PWR49" H 10690 10330 30  0001 C CNN
@@ -2144,7 +2127,7 @@ Text Notes 9000 8950 0    60   ~ 0
 Accelerometer\nI2C addr = 0x1C
 NoConn ~ 8600 9700
 $Comp
-L GND #PWR47
+L Locket-rescue:GND-RESCUE-Locket #PWR47
 U 1 1 5723F759
 P 10150 9350
 F 0 "#PWR47" H 10240 9330 30  0001 C CNN
@@ -2159,10 +2142,10 @@ Wire Wire Line
 Wire Wire Line
 	10100 10200 10100 10350
 Wire Wire Line
-	10000 9650 10750 9650
+	10000 9650 10100 9650
 Connection ~ 10100 9750
 Wire Wire Line
-	10100 9650 10100 9800
+	10100 9650 10100 9750
 Wire Wire Line
 	8150 9600 8600 9600
 Connection ~ 9000 10250
@@ -2173,11 +2156,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 10250 8900 10200
 Wire Wire Line
-	8900 10250 9100 10250
+	8900 10250 9000 10250
 Wire Wire Line
 	9100 10250 9100 10200
 Wire Wire Line
-	9000 10200 9000 10350
+	9000 10200 9000 10250
 Wire Wire Line
 	10350 9800 10350 9650
 Connection ~ 10350 9650
@@ -2197,7 +2180,7 @@ ACC_INT1
 Wire Wire Line
 	2650 2000 3100 2000
 $Comp
-L C C20
+L Locket-rescue:C-RESCUE-Locket C20
 U 1 1 572429EE
 P 10100 10000
 F 0 "C20" H 10000 9900 50  0000 L CNN
@@ -2212,7 +2195,7 @@ F 7 "https://www.terraelectronica.ru/catalog.php?ID=1155&search=cl10a106mq8nnnc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L Locket-rescue:C-RESCUE-Locket C21
 U 1 1 57243DF0
 P 10350 10000
 F 0 "C21" H 10250 9900 50  0000 L CNN
@@ -2223,7 +2206,7 @@ F 3 "" H 10350 10000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C22
+L Locket-rescue:C-RESCUE-Locket C22
 U 1 1 57243ED5
 P 10600 10000
 F 0 "C22" H 10500 9900 50  0000 L CNN
@@ -2234,7 +2217,7 @@ F 3 "" H 10600 10000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PwrMCU #PWR50
+L Locket-rescue:PwrMCU-RESCUE-Locket #PWR50
 U 1 1 572469A6
 P 10750 9650
 F 0 "#PWR50" H 10750 9700 30  0001 C CNN
@@ -2245,7 +2228,7 @@ F 3 "" H 10750 9650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Locket-rescue:C-RESCUE-Locket C1
 U 1 1 57247DF6
 P 1100 7350
 F 0 "C1" H 1000 7250 50  0000 L CNN
@@ -2260,7 +2243,7 @@ F 7 "https://www.terraelectronica.ru/catalog.php?ID=1155&search=cl10a106mq8nnnc"
 	1    0    0    1   
 $EndComp
 $Comp
-L C C8
+L Locket-rescue:C-RESCUE-Locket C8
 U 1 1 57247F26
 P 3300 7350
 F 0 "C8" H 3200 7250 50  0000 L CNN
@@ -2275,7 +2258,7 @@ F 7 "https://www.terraelectronica.ru/catalog.php?ID=1155&search=cl10a106mq8nnnc"
 	1    0    0    1   
 $EndComp
 $Comp
-L C C7
+L Locket-rescue:C-RESCUE-Locket C7
 U 1 1 57248023
 P 1350 7350
 F 0 "C7" H 1250 7250 50  0000 L CNN
@@ -2286,7 +2269,7 @@ F 3 "" H 1350 7350 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R7
+L Locket-rescue:R-RESCUE-Locket R7
 U 1 1 57248116
 P 2900 8150
 F 0 "R7" V 2980 8000 50  0000 C CNN
@@ -2305,7 +2288,7 @@ BuzzerOut
 Text Label 8050 6300 0    60   ~ 0
 Buzzer
 $Comp
-L GND #PWR42
+L Locket-rescue:GND-RESCUE-Locket #PWR42
 U 1 1 57250945
 P 9350 6600
 F 0 "#PWR42" H 9440 6580 30  0001 C CNN
@@ -2330,7 +2313,7 @@ Buzzer
 Wire Wire Line
 	2650 3100 3100 3100
 $Comp
-L NPN Q2
+L Locket-rescue:NPN-RESCUE-Locket Q2
 U 1 1 57253872
 P 9300 6300
 F 0 "Q2" H 9500 6350 60  0000 C CNN
@@ -2345,7 +2328,7 @@ F 7 "5" H 9900 6750 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Locket-rescue:R-RESCUE-Locket R9
 U 1 1 57254B87
 P 8750 6300
 F 0 "R9" V 8830 6150 50  0000 C CNN
@@ -2368,7 +2351,7 @@ Entry Wire Line
 Text Label 8850 2400 0    60   ~ 0
 CC_GDO0
 $Comp
-L TESTPOINT TP2
+L Locket-rescue:TESTPOINT-RESCUE-Locket TP2
 U 1 1 5725D339
 P 8800 2400
 F 0 "TP2" H 8575 2400 60  0000 C CNN
@@ -2394,7 +2377,7 @@ NoConn ~ 3100 2500
 NoConn ~ 3100 2900
 NoConn ~ 3100 3000
 $Comp
-L D_Shottky D1
+L Locket-rescue:D_Shottky-RESCUE-Locket D1
 U 1 1 57241995
 P 2350 7100
 F 0 "D1" H 2200 7200 40  0000 C CNN
@@ -2408,7 +2391,7 @@ F 6 "2" H 2350 7100 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR52
+L Locket-rescue:+BATT-RESCUE-Locket #PWR52
 U 1 1 572478CD
 P 10800 6100
 F 0 "#PWR52" H 10800 6060 30  0001 C CNN
@@ -2419,7 +2402,7 @@ F 3 "" H 10800 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR57
+L Locket-rescue:+BATT-RESCUE-Locket #PWR57
 U 1 1 57247D38
 P 13700 5500
 F 0 "#PWR57" H 13700 5460 30  0001 C CNN
@@ -2430,7 +2413,7 @@ F 3 "" H 13700 5500 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ANT_PCB_MONO_2PIN ANT1
+L Locket-rescue:ANT_PCB_MONO_2PIN-RESCUE-Locket ANT1
 U 1 1 572E5873
 P 14900 2250
 F 0 "ANT1" H 15000 2500 60  0000 C CNN
@@ -2443,7 +2426,7 @@ F 5 "0" H 14900 2250 60  0001 C CNN "SolderPoints"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR61
+L Locket-rescue:GND-RESCUE-Locket #PWR61
 U 1 1 572E5B4A
 P 14700 2350
 F 0 "#PWR61" H 14790 2330 30  0001 C CNN
@@ -2456,7 +2439,7 @@ $EndComp
 Wire Wire Line
 	14700 2300 14700 2350
 $Comp
-L BAT_HOLDER B1
+L Locket-rescue:BAT_HOLDER-RESCUE-Locket B1
 U 1 1 572EEA07
 P 4900 9350
 F 0 "B1" H 5000 9600 60  0000 C CNN
@@ -2470,7 +2453,7 @@ F 6 "2" H 4900 9350 60  0001 C CNN "SolderPointsDIP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR19
+L Locket-rescue:GND-RESCUE-Locket #PWR19
 U 1 1 572EEBFC
 P 5250 9800
 F 0 "#PWR19" H 5340 9780 30  0001 C CNN
@@ -2483,7 +2466,7 @@ $EndComp
 Wire Wire Line
 	5250 9400 5250 9800
 $Comp
-L BALUN868JOHANSON BLN1
+L Locket-rescue:BALUN868JOHANSON-RESCUE-Locket BLN1
 U 1 1 578CC1E9
 P 12250 2300
 F 0 "BLN1" H 11900 2650 60  0000 C CNN
@@ -2499,12 +2482,12 @@ $EndComp
 Wire Wire Line
 	12250 2650 12250 2750
 Wire Wire Line
-	12250 2750 12450 2750
+	12250 2750 12350 2750
 Connection ~ 12350 2750
 Wire Wire Line
 	12450 2750 12450 2650
 $Comp
-L C C26
+L Locket-rescue:C-RESCUE-Locket C26
 U 1 1 578D11BC
 P 13150 2200
 F 0 "C26" V 13000 2050 50  0000 L CNN
@@ -2521,7 +2504,7 @@ Wire Wire Line
 Text Label 12750 2200 0    60   ~ 0
 RF3
 $Comp
-L BUZZER BZ1
+L Locket-rescue:BUZZER-RESCUE-Locket BZ1
 U 1 1 57C421AE
 P 10300 6100
 F 0 "BZ1" V 10000 6200 60  0000 C CNN
@@ -2533,4 +2516,144 @@ F 5 "10" H 10300 6100 60  0001 C CNN "Price"
 	1    10300 6100
 	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	1100 5950 1100 6150
+Wire Wire Line
+	1100 5950 1200 5950
+Wire Wire Line
+	6200 8900 6450 8900
+Wire Wire Line
+	6650 7000 6750 7000
+Wire Wire Line
+	6600 5650 6700 5650
+Wire Wire Line
+	6500 7000 6650 7000
+Wire Wire Line
+	6450 5650 6600 5650
+Wire Wire Line
+	6200 7000 6500 7000
+Wire Wire Line
+	5900 7000 6200 7000
+Wire Wire Line
+	5600 7000 5900 7000
+Wire Wire Line
+	5300 7000 5600 7000
+Wire Wire Line
+	5000 7000 5300 7000
+Wire Wire Line
+	3000 3550 3000 3650
+Wire Wire Line
+	3000 3650 3000 3800
+Wire Wire Line
+	3000 3800 3000 3950
+Wire Wire Line
+	3000 3950 3100 3950
+Wire Wire Line
+	6200 5650 6450 5650
+Wire Wire Line
+	5900 5650 6200 5650
+Wire Wire Line
+	5600 5650 5900 5650
+Wire Wire Line
+	5300 5650 5600 5650
+Wire Wire Line
+	5000 5650 5300 5650
+Wire Wire Line
+	3300 7100 3400 7100
+Wire Wire Line
+	1350 7100 1450 7100
+Wire Wire Line
+	9000 7950 9000 8000
+Wire Wire Line
+	7550 3900 7550 4000
+Wire Wire Line
+	7550 3800 7550 3900
+Wire Wire Line
+	7550 3700 7550 3800
+Wire Wire Line
+	7550 3200 7550 3300
+Wire Wire Line
+	7550 3100 7550 3200
+Wire Wire Line
+	7550 3000 7550 3100
+Wire Wire Line
+	2850 7100 3300 7100
+Wire Wire Line
+	1100 7100 1350 7100
+Wire Wire Line
+	1950 7100 2150 7100
+Wire Wire Line
+	4450 4350 4600 4350
+Wire Wire Line
+	4250 4350 4350 4350
+Wire Wire Line
+	4350 4350 4350 4250
+Wire Wire Line
+	4350 4350 4450 4350
+Wire Wire Line
+	6450 8900 6600 8900
+Wire Wire Line
+	7550 2900 7550 3000
+Wire Wire Line
+	7550 2800 7550 2900
+Wire Wire Line
+	7550 3600 7550 3700
+Wire Wire Line
+	7550 3500 7550 3600
+Wire Wire Line
+	2900 7800 2900 7900
+Wire Wire Line
+	14550 5500 14700 5500
+Wire Wire Line
+	14550 6100 14550 6200
+Wire Wire Line
+	13900 5500 14550 5500
+Wire Wire Line
+	1500 10200 1200 10200
+Wire Wire Line
+	1700 9400 2400 9400
+Wire Wire Line
+	1700 10400 1200 10400
+Wire Wire Line
+	2400 9400 2550 9400
+Wire Wire Line
+	11550 3100 11700 3100
+Wire Wire Line
+	11550 2700 11550 2800
+Wire Wire Line
+	11550 2800 11550 2900
+Wire Wire Line
+	11550 2900 11550 3000
+Wire Wire Line
+	11550 3000 11550 3100
+Wire Wire Line
+	13600 2200 13750 2200
+Wire Wire Line
+	14300 2200 14700 2200
+Wire Wire Line
+	11500 3400 11500 3300
+Wire Wire Line
+	9000 3450 9000 3500
+Wire Wire Line
+	9500 3450 9500 3100
+Wire Wire Line
+	10100 9750 10100 9800
+Wire Wire Line
+	9000 10250 9100 10250
+Wire Wire Line
+	9000 10250 9000 10350
+Wire Wire Line
+	10350 9650 10750 9650
+Wire Wire Line
+	10100 9650 10350 9650
+Wire Wire Line
+	12350 2750 12350 2950
+Wire Wire Line
+	12350 2750 12450 2750
+Wire Bus Line
+	6650 1700 6650 2400
+Wire Bus Line
+	9450 1700 9450 2800
+Wire Bus Line
+	6450 2400 6450 4050
 $EndSCHEMATC

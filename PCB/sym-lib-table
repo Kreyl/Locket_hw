@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Locket-rescue)(type Legacy)(uri ${KIPRJMOD}/Locket-rescue.lib)(options "")(descr ""))
+)
