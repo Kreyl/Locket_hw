@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Project xsi:noNamespaceSchemaLocation="Project.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Version current="1"/>
-	<Format>Project</Format>
-	<Header>
-		<Program name="TopoR" version="6.2"/>
-		<GUID>{F9E4E3AC-F247-497D-8F62-80AFB3241FB5}</GUID>
-		<Annotation>Project file</Annotation>
-	</Header>
-	<Document>
-		<LocalLibrary />
-		<Pcb>
-			<File path=".\Locket.fsx" isopened="0"/>
-		</Pcb>
-		<Import>
-			<Specctra>
-			<Path name="D:\Nute\Lockets\Locket\Locket_hw\PCB\Locket.dsn"/>
-			</Specctra>
-		</Import>
-		<ARouteSessions>
-		</ARouteSessions>
-	</Document>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--*****************************************-->
+<!--   File    : Locket.fsproj               -->
+<!--   Format  : TopoR Project file          -->
+<!--   Version : 2                           -->
+<!--   Program : TopoR 8 Layer 7.0.18427     -->
+<!--   Date    : Wednesday, October 03, 2018 -->
+<!--   Time    : 12:40                       -->
+<!--*****************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{2D4772D7-3F0C-4771-8FC4-DAA012119E41}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\Locket.fsx" isopened="1" dateChange="2018-10-03 11:07:57"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="false"/>
+   </Documents>
 </Project>

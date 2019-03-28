@@ -1,0 +1,16 @@
+==== PCB properties ====
+
+Copper layers: 2
+Size: 59mm x 59mm
+Board thickness: 1.0mm
+Board material: FR4-Standard TG
+Copper weight: 1oz
+Solder mask color: white
+Silkscreen color: black
+Surface finish: HASL (with lead)
+Tent vias: yes
+
+Min track width: 0.2mm
+Min track clearance: 0.2mm
+Min drill diameter: 0.3mm
+Min via diameter: 0.7mm
