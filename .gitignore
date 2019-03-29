@@ -32,3 +32,4 @@ RFSimulation/Round_Horda2_C.hfssresults/
 RFSimulation/Round_Horda2_patch.hfssresults/
 RFSimulation/Round_Horda2_short.hfssresults/
 *.xml
+*.bak
