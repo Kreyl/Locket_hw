@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\Nute\Lockets\Locket_hw\PCB\Locket.sch)
-    (date "28-Mar-19 20:16:35")
+    (date "29-Mar-19 13:18:10")
     (tool "Eeschema (5.1.0-49-gc1c4a0925)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -109,7 +109,7 @@
       (tstamp 551FACBD))
     (comp (ref SW2)
       (value BUTTON)
-      (footprint BtnsSwitches:BTN_IT1198)
+      (footprint BtnsSwitches:BTN_4x4_SMD)
       (libsource (lib Switches) (part BUTTON) (description "Button with housing"))
       (sheetpath (names /) (tstamps /))
       (tstamp 55207597))
